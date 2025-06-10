@@ -118,7 +118,7 @@
             </div>
           </div>
           <div id="w-node-_46cf182b-1c94-d8cb-5b7e-b321c661b0fa-5c668169" class="stacked-images">
-            <div class="front-image-wrapper"><img src="images/Dimaond-2_1.webp" loading="lazy" width="271" sizes="271px" alt="" srcset="images/Dimaond-2_1Dimaond-2.webp 500w, images/Dimaond-2_1Dimaond-2.webp 800w, images/Dimaond-2_1.webp 1086w" class="front-image"></div>
+            <div class="front-image-wrapper"><img src="images/diamond.avif" loading="lazy" width="271" sizes="271px" alt="" srcset="images/Dimaond-2_1Dimaond-2.webp 500w, images/Dimaond-2_1Dimaond-2.webp 800w, images/Dimaond-2_1.webp 1086w" class="front-image"></div>
             <div class="center-image-wrapper"><img src="images/centre-image.avif" loading="lazy" width="291" alt="" class="center-image"></div>
             <div class="back-image-wrapper"><img src="images/a-luxury-jewelry-brand-and-coaching-enterprise.avif" loading="lazy" alt="" class="back-image"></div>
           </div>
@@ -574,8 +574,22 @@
               <p class="text-size-medium">Be a part of the mission to guide women back to the truth of who they are—purposeful, powerful, and radiant.</p>
             </div>
             <div class="cta8_form-block w-form">
-              <form id="email-form" name="email-form" data-name="Email Form" method="get" class="cta8_form" data-wf-page-id="68388ebce04a947a5c668169" data-wf-element-id="743b0d3f-8927-5402-952b-1c70019def87">
+              <!-- <form id="email-form" name="email-form" data-name="Email Form" method="get" class="cta8_form" data-wf-page-id="68388ebce04a947a5c668169" data-wf-element-id="743b0d3f-8927-5402-952b-1c70019def87">
                 <div class="signup-form-wrapper"><input class="form_input w-input" maxlength="256" name="email-4" data-name="Email 4" placeholder="Enter your email" type="email" id="email-4" required=""><input type="submit" data-wait="Please wait..." class="submit-button w-button" value="Sign up"></div>
+                <div class="text-size-tiny">We respect your privacy and promise not to spam you.</div>
+              </form> -->
+              <form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="cta8_form">
+                <!-- Fake hidden field for bots -->
+                <input type="hidden" name="form-name" value="newsletter">
+                <p class="hidden">
+                  <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+                </p>
+              
+                <div class="signup-form-wrapper">
+                  <input class="form_input w-input" maxlength="256" name="email" placeholder="Enter your email" type="email" required>
+                  <input type="submit" class="submit-button w-button" value="Sign up">
+                </div>
+              
                 <div class="text-size-tiny">We respect your privacy and promise not to spam you.</div>
               </form>
               <div class="form_message-success-wrapper w-form-done">
