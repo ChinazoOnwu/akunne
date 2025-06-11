@@ -1467,7 +1467,7 @@ blockquote {
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  height: 110vh;
+  height: 125vh;
   padding: 6rem 64px 4rem;
   text-decoration: none;
   display: flex;
@@ -3252,7 +3252,7 @@ blockquote {
   }
 
   .background-video {
-    height: 60%;
+    height: 75%;
   }
 
   .section-about {
@@ -4224,7 +4224,7 @@ blockquote {
   }
 
   .background-video {
-    height: 60vh;
+    height: 75%;
   }
 
   .section-about {
