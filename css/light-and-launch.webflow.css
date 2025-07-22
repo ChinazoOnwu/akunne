@@ -135,15 +135,6 @@ h2.heading-3 {
     margin-top: 2rem;
     text-align: center;
   }
-
-  h2.heading-3 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-family: the-seasons, sans-serif;
-    font-size: 2.5rem;
-    font-weight: 400;
-    line-height: 100%;
-  }
 }
 
 /* NEWSLETTER */
@@ -3571,6 +3562,15 @@ blockquote {
 
   .heading-3 {
     color: var(--primary-500);
+  }
+
+  h2.heading-3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: the-seasons, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 100%;
   }
 
   .card-overlay {
