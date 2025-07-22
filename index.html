@@ -183,11 +183,7 @@
                   </li>
                   <li></li>
                   <li class="mobile-margin-top-10">
-                    <a
-                      href="mailto:akunna@akunne.co.za?subject=I%20want%20to%20learn%20more"
-                      class="button w-button"
-                      >Get in touch</a
-                    >
+                    <a href="#contact" class="button w-button">Get in touch</a>
                   </li>
                 </ul>
               </nav>
@@ -239,16 +235,10 @@
               Life coaching and adornment for the woman stepping into her power.
             </div>
             <div class="button-group">
-              <a
-                href="mailto:akunna@akunne.co.za?subject=I%20want%20to%20learn%20more"
-                class="button is-secondary w-button"
+              <a href="#aboutfounder" class="button is-secondary w-button"
                 >Learn more</a
               >
-              <a
-                href="mailto:akunna@akunne.co.za?subject=I%20want%20to%20learn%20more"
-                class="button w-button"
-                >Get in touch</a
-              >
+              <a href="#contact" class="button w-button">Get in touch</a>
             </div>
           </div>
         </div>
@@ -1276,14 +1266,12 @@
             </div>
           </div>
           <div class="section-cta-button">
-            <a
-              href="mailto:akunna@akunne.co.za?subject=Let&#x27;s%20get%20started"
-              class="button is-tertiary w-button"
+            <a href="#contact" class="button is-tertiary w-button"
               >Get in touch</a
             >
           </div>
         </div>
-        <div class="section-founder">
+        <div class="section-founder" id="aboutfounder">
           <div class="founder-heading">
             <h2 class="heading-2 text-color-alternate text-align-center">
               About Our Founder
@@ -1321,25 +1309,77 @@
             </div>
           </div>
         </div>
-        <div class="section-cta2">
+        <div class="section-cta2" id="contact">
           <div class="cta8_component">
             <div class="cta8_content">
               <div class="max-width-large">
-                <div class="margin-bottom margin-xsmall">
+                <div class="margin-bottom margin-large">
                   <h2 class="heading-3">
-                    Join the Akunné sisterhood. New Collections, launches &amp;
-                    more.
+                    Let’s Connect — Coaching, Gifting, and Conversations that
+                    Matter
                   </h2>
+                  <p class="text-size-medium">
+                    Whether you’re seeking guidance through 1:1 coaching,
+                    exploring meaningful corporate gifting, or simply curious
+                    about Akunné, we’re here for it all. Send us a message —
+                    we’d love to journey with you.
+                  </p>
                 </div>
-                <p class="text-size-medium">
-                  Be a part of the mission to guide women back to the truth of
-                  who they are—purposeful, powerful, and radiant.
-                </p>
-                <a
-                  href="mailto:akunna@akunne.co.za?subject=Let&#x27;s%20get%20started"
+
+                <form
+                  action="https://formsubmit.co/7c815cacab5ca925322e5f20f0457f6b"
+                  method="POST"
+                  id="contact-form"
+                  class="newsletter-form"
+                >
+                  <div class="form-row">
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Your name"
+                      required
+                      class="form-input"
+                    />
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Your email"
+                      required
+                      class="form-input"
+                    />
+                  </div>
+
+                  <div class="form-row">
+                    <textarea
+                      name="message"
+                      placeholder="Your message"
+                      required
+                      class="form-input"
+                      rows="5"
+                    ></textarea>
+                  </div>
+
+                  <div class="form-row">
+                    <button type="submit" class="form-button">
+                      Send message
+                    </button>
+                  </div>
+
+                  <input type="hidden" name="_captcha" value="false" />
+                  <input type="hidden" name="_template" value="table" />
+
+                  <div class="form-feedback success-message" hidden>
+                    ✅ Your message was sent successfully!
+                  </div>
+                  <div class="form-feedback error-message" hidden>
+                    ❌ Something went wrong. Please try again.
+                  </div>
+                </form>
+                <!-- <a
+                  href="#contact"
                   class="button is-tertiary w-button"
                   >Get in touch</a
-                >
+                > -->
               </div>
               <!-- <div class="">
               <form netlify id="newsletter" name="newsletter-form" class="">
